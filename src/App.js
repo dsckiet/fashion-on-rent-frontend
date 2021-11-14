@@ -1,8 +1,16 @@
 import "./assets/main.css";
-import Login from './Login/Login'
+import Signup from "./Login/Signup";
+import Login from "./Login/Login"
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 function App() {
   return (
-    <Login />
+    <BrowserRouter>
+   <Switch>
+        <Route exact path="/" component={Login} />
+        <Route path="/signup" component={Signup} />
+      </Switch>
+
+  </BrowserRouter>
   );
 }
 

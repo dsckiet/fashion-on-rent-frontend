@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./style.css"
-import image from "./Image/b.PNG"
+import "../assets/main.css";
+import image from "./Image/img1.PNG"
 import logo from "./Image/logo.PNG"
 import { NavLink } from 'react-router-dom'
 const Login = () => {
@@ -43,7 +44,7 @@ const Login = () => {
                     Email
                 </label>
                 <img src="https://s3-alpha-sig.figma.com/img/1c76/0f4c/ff78e00997fa01e06a4a7fdbba86cbc8?Expires=1635724800&Signature=SDPCCyfkFsLBKcEJXF9XXJXnYG5agKUjMv1J5OVC53kSzKJeABRWvK-UDh4qubdrus0PDjRdef4QkvHUXF45Hkt1UkzRWnyeqJHWAhdKEiBybK5YZqGt5S4x5bxAE4JTFmlA4zNkEBgSbEaHwZJE8S59F~Ryl7hymwaJ993ustsNkHOPHxViHFY5DLg4t3dwTD50upAL0A0-FiWtEw-8Y4-BIj~xJYA-C~Q~3xjs2bhwm5Vqqky~RLbYtwrgPGsouRpkgJ-NJrWUUxNZJR0S~8dqc-TwN9AxzsI-AGTPtS0d7EwqMd1hmElPdplEqEz7ERKuzEEold1SOnLPA5XSfw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                    alt="" className='log ml-4 fill-current text-gray-500 text-xs z-10 h-4 opacity-60 '/>
+                    alt="" className='log ml-6 fill-current text-gray-500 text-xs z-10 h-4 opacity-60 '/>
                 <input  id="email-address"
                         name="email"
                         type="email"
@@ -61,7 +62,7 @@ const Login = () => {
               <div className="w-3/5 mx-auto">
                 <div className="flex items-center">
                   <img src="https://s3-alpha-sig.figma.com/img/a900/5091/9948fcf7aa3aa2f8bfe6410181f01a4f?Expires=1635724800&Signature=btMijsq-VnhtHsR6nTy0W4Gct2NFx9J6QyDclRW6Z7gXeZCdksTp-qY2D4VQEKuuP0G6IFSfbQcAJJRCmGOUwg53HuG7ZakhPJlDMASEOWdO~hrefGzveY~5aAii23FntbX4GBtMIBmm~gBnqJj1KR4FE2aDj6yTh2GdjEiOmId6Cwuq7-HZixf~LUs7yEZfdMbjpSxdK~iZ~FlArhYfIsl9nirBPS2bfCzYWwPGtxb~xDltLLxnXYLitEh2x3m0iy4XZEXyuE5K7WwsLFj6PG5~no4KgKfiW~zrgs-xTDwLj8aFUK~S7pAkbF5Rnxv9y6bnUMslG1VITgALF50Jiw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
-                      alt="" className='log ml-4 fill-current text-gray-500 text-xs z-10 h-4 opacity-60 '/>
+                      alt="" className='log ml-6 fill-current text-gray-500 text-xs z-10 h-4 opacity-60 '/>
                   <label htmlFor="password" className="sr-only">
                     Password
                   </label>
@@ -118,7 +119,7 @@ const Login = () => {
           <span className="text-gray-600 text-xs w-2/3">New Customer?
           </span>
           
-          <button className="text-red-dark text-xs" >Create a Account</button>
+          <NavLink activeClassName="menu_active" className="text-red-dark text-xs" to="/signup">Create a Account</NavLink>
         </div> 
       </div>
     </div>

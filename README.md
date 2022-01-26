@@ -1,4 +1,6 @@
-**Fashion On Rent**
+# What is this project?
+
+## Fashion On Rent
 
 A website through which users would easily be able to get some expensive clothes and jewellery on rent on basis of their needs. Our website will be showcasing a variety of party wear clothes and jewellery that users generally require for a only a limited amount of time but are expensive so they avoid purchasing them and look for the shops that rent these items. 
 
@@ -24,11 +26,11 @@ This website includes a mix of the following:
 
 9.Displaying the items that are in current demand
 
-**REQUIREMENT:-**
+## REQUIREMENT:-
 
 Frontend - REACT.JS, TAILWIND CSS
 
-How to install on your local machine:
+## How to install on your local machine:
 
 1. Intall Node.js
 
@@ -36,7 +38,7 @@ How to install on your local machine:
 
 3. Use 'npm start' to start the project
 
-How to contribute?
+## How to contribute?
 
 1.Comment on the issue on which you want work, also mention the changes/additions you are willing to make.
 

@@ -3,3 +3,9 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+
+input[type=radio]:checked + .cl{
+    background-color : rgba(255, 199, 199, 0.6);
+  }
+  

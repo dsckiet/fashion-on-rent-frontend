@@ -15,7 +15,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-
+      'gr' : '#COE5DE',
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -319,6 +319,8 @@ module.exports = {
       "7xl": ["4.5rem", { lineHeight: "1" }],
       "8xl": ["6rem", { lineHeight: "1" }],
       "9xl": ["8rem", { lineHeight: "1" }],
+      "s":["0.70rem",{lineHeight:"1rem"}],
+      "med":["0.6rem",{lineHeight:"1.25rem"}],
     },
     fontWeight: {
       thin: "100",
@@ -613,6 +615,7 @@ module.exports = {
       95: "0.95",
       100: "1",
     },
+
     order: {
       first: "-9999",
       last: "9999",
